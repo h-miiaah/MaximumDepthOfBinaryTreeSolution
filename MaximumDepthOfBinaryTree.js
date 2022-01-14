@@ -14,6 +14,7 @@
     return rootFinder(root, 0);
 };
 
+
 var rootFinder = function (root, level) {
     if (!root) return level;
     return Math.max(rootFinder(root.left, level + 1), rootFinder(root.right, level + 1));
