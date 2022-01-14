@@ -11,7 +11,7 @@
  * @return {number}
  */
  var maxDepth = function(root) {
-    
+    return rootFinder(root, 0);
 };
 
 var rootFinder = function (root, level) {
