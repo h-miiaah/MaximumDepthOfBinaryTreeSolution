@@ -26,5 +26,6 @@ var rootFinder = function (root, level) {
 - If the node is null, we return the depth.
 - Otherwise, we recursively call the function with the node’s left and right children and the depth + 1.
 - The function returns the maximum of the left and right depths.
+- We call the function with the root and 0.
 
 */
