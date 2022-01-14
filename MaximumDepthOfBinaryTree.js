@@ -15,5 +15,5 @@
 };
 
 var rootFinder = function (root, level) {
-    
+    if (!root) return level;
   };
