@@ -24,5 +24,6 @@ var rootFinder = function (root, level) {
 
 - We start with a function that takes in a node and a depth.
 - If the node is null, we return the depth.
+- Otherwise, we recursively call the function with the node’s left and right children and the depth + 1.
 
 */
